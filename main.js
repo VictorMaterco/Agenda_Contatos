@@ -22,7 +22,7 @@ function adicionaLinha() {
     } else {
         nomes.push(inputNomeContato.value);
         ddds.push(inputDddContato.value);
-        numeros.push(inputNumeroContato);
+        numeros.push(inputNumeroContato.value);
 
         let linha = '<tr>';
         linha += `<td>${inputNomeContato.value}</td>`;
